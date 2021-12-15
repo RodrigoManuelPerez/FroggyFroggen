@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4288416106617738626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8697186217787695997}
+  - component: {fileID: 1601994667307112262}
+  - component: {fileID: 3646485729465852394}
+  - component: {fileID: 991407657635365985}
+  m_Layer: 0
+  m_Name: Casilla
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8697186217787695997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288416106617738626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.349, y: 0.19, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1601994667307112262
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288416106617738626}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f82edd18ec407354881f9c09210e80b1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.03, y: 0.03}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3646485729465852394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288416106617738626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9715f42f92f1f844819c686ceb6f18f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  box: 1
+  rend: {fileID: 1601994667307112262}
+  sprites:
+  - {fileID: 21300000, guid: 77e449fb07d67854094ff6a900c39625, type: 3}
+  - {fileID: 21300000, guid: 34cde8518ce69a64b9b8dca04e963ca6, type: 3}
+  - {fileID: 21300000, guid: f82edd18ec407354881f9c09210e80b1, type: 3}
+  - {fileID: 21300000, guid: d2ca5c99d127f444e85ac617cc10bbbc, type: 3}
+  - {fileID: 21300000, guid: 33e7c5c81ca336c46ad68378409004f5, type: 3}
+  - {fileID: 21300000, guid: 92f352f62bb7bd14091ef84bae4f4e53, type: 3}
+  - {fileID: 21300000, guid: 77e60ed7738b16a4f9fa9a3962dce0f1, type: 3}
+  - {fileID: 21300000, guid: b882faaee4e42914b86a8362010a83f4, type: 3}
+  - {fileID: 21300000, guid: 9acfa2ac9db904341b4f15b54fd13b34, type: 3}
+  - {fileID: 21300000, guid: a7c3b827a94d834498d2e68e7d1a7a00, type: 3}
+  - {fileID: 21300000, guid: 3c85e622a50fd1f4c8ce855f7c2e5093, type: 3}
+  anim: {fileID: 991407657635365985}
+  Cross: {fileID: 9100000, guid: 270384b438013ef4bb29f54152c17154, type: 2}
+  Piercer: {fileID: 9100000, guid: a5d4befee179f8d4fa5ec96b2c44ea79, type: 2}
+  Fly: {fileID: 9100000, guid: 4371a389f2e4cd441a77aa09ab2caa24, type: 2}
+  timeToChange: 5
+  timeToFlickOn: 0.4
+  timeToFlickOff: 0.25
+  flickers: 11
+--- !u!95 &991407657635365985
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288416106617738626}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
